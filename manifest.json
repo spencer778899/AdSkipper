@@ -10,7 +10,7 @@
     "incognito": "split",
     "content_scripts": [
       {
-          "matches": ["*://*/*"],
+          "matches": ["https://www.youtube.com/"],
           "js": ["popup.js"]
       }
     ]

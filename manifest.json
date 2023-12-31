@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "AdSkipper",
+    "version": "1.0",
+    "description": "按下按鈕，幫你跳過 Youtube 廣告",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"],
+    "incognito": "split",
+    "content_scripts": [
+      {
+          "matches": ["*://*/*"],
+          "js": ["popup.js"]
+      }
+    ]
+  }
+  

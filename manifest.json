@@ -11,7 +11,7 @@
     "action": {
       "default_title": "AdSkipper",
       "default_icon": {
-        "16": "image.png"
+        "16": "icon.png"
       },
       "default_popup": "popup.html"
     },

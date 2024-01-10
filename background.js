@@ -2,8 +2,8 @@ chrome.contextMenus.create({
     "type": "normal",
     "title": 'skip ad',
     "id": 'skip ad',
-    "contexts": ["video"],
 })
+console.log('background.js')
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
     if(info.menuItemId === "skip ad"){
